@@ -1,0 +1,11 @@
+{
+  "name": "firefoxos-geolocation",
+  "description": "A simple test app to determine the user's position using HTML5 geolocation.",
+  "launch_path": "/index.html",
+  "icons": {
+  },
+  "developer": {
+    "name": "Tomas Perez <tom@0x101.com>"
+  },
+  "default_locale": "en"
+}

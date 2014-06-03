@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+  <script src="./js/geolocation.js"></script>
+<body>
+  <div id="position"></div>
+</body>
+
+  <script>
+    // Be notified by the geolocation API
+    Geolocation.watch(function(positionData) {
+      document.getElementsById('position').innerHTML = positionData.join(' ');
+    });
+  </script>
+
+</html>
