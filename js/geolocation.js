@@ -28,7 +28,7 @@ var Geolocation = (function() {
         positionData = [position.coords.latitude, position.coords.longitude];
 
     for (i = 0; i < listenersLength; i++) {
-      listeners[i](positionData);
+      _listeners[i](positionData);
     }
 
   };
